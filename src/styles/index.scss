@@ -1,0 +1,69 @@
+.hero {
+  position: relative;
+  background: url("../styles/images/hero_b.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &_first {
+      flex: 1;
+      font-size: medium;
+      font-weight: bold;
+    }
+
+    &_second {
+      flex: 2;
+      height: 1.5rem;
+      border: 2px solid black;
+      background-color: black;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    &_third {
+      flex: 1;
+    }
+  }
+
+  &_mid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22rem;
+
+    .first {
+      margin-top: 11rem;
+
+      .img_1 {
+        border: 2px solid red;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.base {
+  position: relative;
+  background: url("../styles/images/section_1.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 20vh;
+
+  &_footer {
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+}
